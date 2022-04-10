@@ -1,0 +1,22 @@
+.barOption {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 30px;
+  }
+  .barOption:hover {
+    background-color: #e8f5fe;
+    color: var(--twitter-color);
+    transition: color 100ms ease-out;
+  }
+  .barOption > .MuiSvgIcon-root {
+    padding: 20px;
+  }
+  .barOption > h2 {
+    font-weight: 700;
+    font-size: 20px;
+    margin-right: 20px;
+  }
+  .barOption--active {
+    color: var(--twitter-color);
+  }
